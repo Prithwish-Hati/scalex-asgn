@@ -29,6 +29,35 @@ const config: Config = {
       boxShadow: {
         "3xl": "20px 30px 84px 0px rgba(0, 103, 222, 0.60)",
       },
+      fontSize: {
+        "head-1": [
+          "36px",
+          {
+            lineHeight: "150%",
+            fontWeight: "700",
+          },
+        ],
+        "head-2": [
+          "30px",
+          {
+            lineHeight: "140%",
+            fontWeight: "600",
+          },
+        ],
+        "head-3": [
+          "24px",
+          {
+            lineHeight: "140%",
+            fontWeight: "500",
+          },
+        ],
+        "head-4": [
+          "20px",
+          {
+            lineHeight: "140%",
+          }
+        ]
+      },
     },
   },
   plugins: [],

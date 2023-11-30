@@ -1,108 +1,12 @@
 import CountDown from "@/components/CountDown";
+import Hero from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="w-full max-w-[1600px] relative">
-      <section
-        id="Home"
-        className="max-md:mx-10 max-md:my-10 mx-32 my-20 lg:flex lg:mx-20 lg:my-1 lg:gap-3"
-      >
-        <div className="w-full lg:w-6/12">
-          <div className="absolute max-md:right-2 max-md:top-0 right-20 top-10">
-            <Image
-              src="/yellow-triangle.svg"
-              alt="vector"
-              width={33}
-              height={33}
-            />
-          </div>
-          <div className="flex justify-center">
-            <div className="bg-dark rounded-[20px] px-5 py-4 w-fit lg:mt-12">
-              <p className="text-center text-xl">
-                <span className="font-bold">Business Breakthrough Seminar</span>
-                <br />
-                <span className="text-yellow font-semibold">4 Hour </span>Online
-              </p>
-            </div>
-          </div>
-
-          <div className="absolute max-md:left-5 left-20 top-36">
-            <Image
-              src="/blue-triangle.svg"
-              alt="vector"
-              width={33}
-              height={33}
-            />
-          </div>
-
-          <h2 className="mt-7 text-3xl/9 text-center font-bold lg:mt-16">
-            Learn the Right Strategies of{" "}
-            <span className="text-yellow">Growing Your Business </span> to
-            Multiple Crores
-          </h2>
-
-          <p className="mt-7 text-lg font-semibold text-center lg:mt-16">
-            End day to day firefighting in business
-          </p>
-
-          <div className="lg:flex hidden items-center justify-between mt-16 bg-blue rounded-[20px] p-4 shadow-3xl ">
-            <Link href="/" className="text-xl font-semibold ml-10">
-              JOIN NOW FOR ₹99
-            </Link>
-            <Image
-              src="right-arrow.svg"
-              alt="arrow"
-              width={60}
-              height={60}
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div className="w-full lg:w-6/12">
-          <div className="flex justify-center mt-12">
-            <Image
-              src="/hero-image.svg"
-              alt="hero image"
-              width={420}
-              height={283}
-              className="object-contain"
-            />
-          </div>
-          <div className="p-5 bg-dark rounded-[20px]">
-            <h3 className="font-semibold text-xl text-center">
-              Asia's Leading Business Success Coach
-            </h3>
-            <p className="text-center my-3">
-              Trained over <span className="font-bold">1,00,00 </span>Business
-              Owners in Last <span className="font-bold">16 Years</span>
-            </p>
-            <div className="bg-dark rounded-[20px] py-3 px-4 my-3">
-              <div className="flex justify-center">
-                <Image src="/rating.svg" width={115} height={25} alt="rating" />
-              </div>
-              <p className="text-center mt-2">
-                <span className="font-bold">70,000+ </span>People Rated My
-                Programs with <span className="font-bold">4.96 </span>Stars
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* CTA Button */}
-        <div className="flex lg:hidden items-center justify-between mt-11 bg-blue rounded-[20px] p-4 max-md:gap-10 gap-24 shadow-3xl">
-          <Link href="/" className="text-xl font-semibold ml-10">
-            JOIN NOW FOR ₹99
-          </Link>
-          <Image
-            src="right-arrow.svg"
-            alt="arrow"
-            width={60}
-            height={60}
-            className="object-contain"
-          />
-        </div>
-      </section>
+      <Hero />
 
       <section className="max-md:mx-10 max-md:my-10 mx-32 my-20 lg:mx-20 ">
         <h1 className="text-3xl font-semibold text-center">
