@@ -6,7 +6,7 @@ const Button = () => {
     <div className="flex justify-center">
           <Link
             href="/"
-            className="lg:flex hidden items-center gap-10 mt-16 bg-blue rounded-[20px] p-4 shadow-3xl w-fit"
+            className="flex items-center gap-10 mt-16 bg-blue rounded-[20px] p-4 shadow-3xl w-fit"
           >
             <p className="text-xl font-semibold ml-10">JOIN NOW FOR ₹99</p>
             <Image

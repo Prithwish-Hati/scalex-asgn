@@ -9,11 +9,11 @@ const Testimonial = () => {
         breakthrough after <br className="hidden lg:block" />
         attending this seminar
       </h1>
-      <div className="flex justify-center -mt-28 lg:-mt-[170px]">
+      <div className="flex justify-center -mt-56 lg:-mt-[170px]">
         <Image src="/vector2.svg" width={309} height={13} alt="vector" />
       </div>
 
-      <div className="mt-32 lg:mt-52 lg:flex justify-around">
+      <div className="mt-56 lg:mt-52 lg:flex justify-around">
         <div className="mt-10">
           <Image
             src="/thumbnail1.svg"

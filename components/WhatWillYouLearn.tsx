@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 const WhatWillYouLearn = () => {
   return (
@@ -59,6 +60,8 @@ const WhatWillYouLearn = () => {
           strategic business growth.
         </p>
       </div>
+
+      <Button />
     </section>
   );
 };

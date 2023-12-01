@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className="w-full lg:w-1/2">
         <div className="relative">
-          <div className="absolute max-md:right-2 max-md:top-0 right-20 top-10">
+          <div className="absolute max-lg:right-2 max-lg:top-0 right-0 top-5">
             <Image
               src="/yellow-triangle.svg"
               alt="vector"
@@ -19,7 +19,7 @@ const Hero = () => {
             />
           </div>
           <div className="flex justify-center">
-            <div className="bg-dark rounded-[20px] px-5 py-4 w-fit lg:mt-12 lg:px-10">
+            <div className="bg-dark rounded-[20px] px-5 py-4 w-fit lg:mt-12 lg:px-10 my-5 mx-5">
               <p className="text-head-4 text-center">
                 <strong>
                   Business Breakthrough Seminar <br />
@@ -29,7 +29,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="absolute max-md:left-5 left-20 top-36">
+          <div className="absolute max-lg:left-5 left-5 -bottom-5">
             <Image
               src="/blue-triangle.svg"
               alt="vector"
@@ -39,19 +39,21 @@ const Hero = () => {
           </div>
         </div>
 
-        <h2 className="mt-7 text-head-1 text-center font-bold lg:mt-16">
+        <h2 className="mt-10 text-head-1 text-center font-bold lg:mt-16">
           Learn the Right Strategies of <br className="hidden lg:block" />
           <span className="text-yellow">Growing Your Business </span> to{" "}
           <br className="hidden lg:block" />
           Multiple Crores
         </h2>
 
-        <p className="mt-7 text-head-4 font-semibold text-center lg:mt-10">
+        <p className="text-head-4 font-semibold text-center lg:mt-10">
           End day to day firefighting in business
         </p>
 
         {/* Desktop CTA */}
-        <Button />
+        <div className="lg:flex hidden justify-center">
+          <Button />
+        </div>
       </div>
 
       <div className="w-full lg:w-6/12">
@@ -91,18 +93,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* CTA Button */}
-      <div className="flex lg:hidden items-center justify-between mt-11 bg-blue rounded-[20px] p-4 max-md:gap-10 gap-24 shadow-3xl">
-        <Link href="/" className="text-xl font-semibold ml-10">
-          JOIN NOW FOR ₹99
-        </Link>
-        <Image
-          src="right-arrow.svg"
-          alt="arrow"
-          width={60}
-          height={60}
-          className="object-contain"
-        />
+      {/* Mobile CTA Button */}
+      <div className="block lg:hidden">
+        <Button />
       </div>
     </section>
   );
