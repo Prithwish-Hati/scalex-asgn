@@ -23,7 +23,7 @@ const BusinessSuccess = () => {
             />
           </div>
 
-          <div className="mt-9 text-lg lg:w-6/12">
+          <div className="mt-9 text-lg lg:w-6/12 2xl:text-head-4">
             <div className="flex items-start gap-4">
               <Image src="/check.svg" width={22} height={22} alt="list-icon" />
               <p>Build Success Mindset to Run Your Business like the Top 1%</p>

@@ -9,8 +9,8 @@ const WorkShop = () => {
         <Image src="/vector1.svg" width={135} height={13} alt="vector" />
       </div>
 
-      <div className="lg:flex lg:gap-3 lg:items-center lg:justify-between">
-        <div className=" mt-9 p-8 bg-dark rounded-[20px] text-lg h-fit">
+      <div className="xl:flex lg:gap-3 items-center justify-between ">
+        <div className=" mt-9 p-8 bg-dark rounded-[20px] text-lg h-fit 2xl:text-head-4">
           <div className="my-4 flex items-start gap-4">
             <Image src="/check.svg" width={22} height={22} alt="list-icon" />
             <p>
@@ -57,7 +57,7 @@ const WorkShop = () => {
 
           <CountDown />
 
-          <p className="text-center mt-6">
+          <p className="text-center mt-6 2xl:text-head-4">
             To Unlock Bonuses Worth{" "}
             <span className="text-green font-bold">₹6,487</span>
           </p>

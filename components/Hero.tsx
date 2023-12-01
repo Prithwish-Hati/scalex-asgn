@@ -84,7 +84,7 @@ const Hero = () => {
                 className="lg:w-[30%]"
               />
             </div>
-            <p className="text-center mt-2">
+            <p className="text-center mt-2 2xl:text-head-4">
               <span className="font-bold">70,000+ </span>People Rated My
               Programs with <span className="font-bold">4.96 </span>Stars
             </p>

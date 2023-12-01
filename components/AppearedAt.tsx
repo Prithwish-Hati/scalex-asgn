@@ -7,7 +7,7 @@ const AppearedAt = () => {
         <p className="text-black text-center font-extrabold">FEATURED IN</p>
       </div>
 
-      <div className="flex justify-between rounded-[20px] bg-dark py-9 px-6 w-fit gap-32">
+      <div className="flex justify-between rounded-[20px] bg-dark py-9 px-6 w-fit  lg:gap-32">
         <Image src="/dailyhunt.svg" width={105} height={27} alt="dailyhunt" />
         <Image src="/dna.svg" width={105} height={27} alt="dna" />
         <Image
